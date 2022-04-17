@@ -8,7 +8,7 @@ console.log(userGender);
 
 var userAge = prompt("How old are you?");
 
-(userAge <= 0) ? alert("It Looks That You Didn't Born Yet!"): console.log(userAge);
+(userAge <= 0) ? alert("It Looks like You Didn't Born Yet!"): console.log(userAge);
 
 var userAnswer = confirm("Do you want to skip the welcome message?");
 console.log(userAnswer);
