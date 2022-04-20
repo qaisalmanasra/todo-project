@@ -8,30 +8,31 @@ function valid(ans) {
 }
 
 function print(arr) {
-    for (var i = 0; i < arr; i++) {
+    for (var i = 0; i < arr.length; i++) {
         console.log(arr[i]);
-    return arr;
+    // return arr;
     }
 }
-var userName = prompt("What is your name?");
-var usernameCap = userName.charAt(0).toUpperCase() + userName.slice(1);
-console.log(usernameCap);
+// var userName = prompt("What is your name?");
+//var usernameCap = userName.charAt(0).toUpperCase() + userName.slice(1);
+// console.log(usernameCap);
 
-var userGender = prompt("What is your gender?");
-console.log(userGender);
+// var userGender = prompt("What is your gender?");
+// console.log(userGender);
 
-var userAge = prompt("How old are you?");
+// var userAge = prompt("How old are you?");
 
-(userAge <= 0) ? alert("It Looks like You Didn't Born Yet!"): console.log(userAge);
+// (userAge <= 0) ? alert("It Looks like You Didn't Born Yet!"): console.log(userAge);
 
-var userAnswer = confirm("Do you want to skip the welcome message?");
-console.log(userAnswer);
+// var userAnswer = confirm("Do you want to skip the welcome message?");
+// console.log(userAnswer);
 
    
-if (userAnswer == false) {
-(userGender.toLowerCase() === 'male')  ? alert(` Welcome Mr ${usernameCap}`) :
-(userGender.toLowerCase() === 'female') ? alert(`Welcome Ms ${usernameCap}`) :
-alert(`welcome ${usernameCap}`);
+// if (userAnswer == false) {
+// (userGender.toLowerCase() === 'male')  ? alert(` Welcome Mr ${usernameCap}`) :
+// (userGender.toLowerCase() === 'female') ? alert(`Welcome Ms ${usernameCap}`) :
+// alert(`welcome ${usernameCap}`);
+// };
 
 var userFirstQ = prompt("Do you like js?");
 var userSecondQ = prompt("Do you wish to enter the website?");
@@ -46,14 +47,11 @@ answers.push(firstAns);
 answers.push(secondAns);
 answers.push(thirdAns);
 
-for(let i = 0; i < answers; i++) {
-    console.log(answers[i]);
-  }
 
 print(answers);
 
-console.log(answers);
 
 
-};
+
+
 
